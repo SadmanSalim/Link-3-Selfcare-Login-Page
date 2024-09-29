@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 1100px;
+    height: 450px;
+    margin-top: 120px;
+    margin-left: 230px;
+    border-radius: 20px;
+}
+.logo img{
+    width: 90px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.text{
+    margin-left: 50px;
+    color: #7b6f6f;
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 10px;
+}
+.text hr{
+    margin-top: 10px;
+    width: 400px;
+}
+
+.big-img img{
+    margin-left: 689px;
+    border-radius: 20px;
+    margin-top: -357px;
+    width: 37.5%;
+}
+
+.cs-id{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 30px;
+    border: none;
+    padding-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    height: 35px;
+    width: 260px;
+}
+.cs-id-1{
+    margin-left: 70px;
+    display: flex;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 40px;
+    border-radius: 20px;
+    height: 35px;
+    width: 260px;
+    border: none;
+}
+.cs-id,
+.cs-id-1{
+    outline: none;
+    border: none;
+}
+.cs-id:hover,
+.cs-id-1:hover{
+    box-shadow: none;
+    background-color: white;
+}
+
+#remember-pass{
+    display: inline;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#re{
+    color: #30a9bb;
+}
+.last-btn{
+    display: inline;
+}
+.last-btn{
+    margin-top: 50px;
+}
+.frg{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.btn{
+    margin-left: 80px;
+    color: white;
+    background-color: #0c4ca3;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}
+.copyright p{
+    margin-top: 10px;
+    margin-left: 580px;
+}
