@@ -5,7 +5,6 @@
     padding: 0;
     font-family: inter;
 }
-
 .box{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 1100px;
@@ -13,6 +12,7 @@
     margin-top: 120px;
     margin-left: 230px;
     border-radius: 20px;
+    background-color: white;
 }
 .logo img{
     width: 90px;
@@ -32,10 +32,10 @@
     width: 400px;
 }
 
-.big-img img{
+.big-img{
     margin-left: 689px;
     border-radius: 20px;
-    margin-top: -357px;
+    margin-top: -327px;
     width: 37.5%;
 }
 
@@ -80,18 +80,12 @@
 #re{
     color: #30a9bb;
 }
-.last-btn{
-    display: inline;
-}
-.last-btn{
-    margin-top: 50px;
-}
+
 .frg{
     text-decoration: none;
     color: black;
     font-weight: 400;
     margin-left: 70px;
-    margin-top: 20px;
 }
 .btn{
     margin-left: 80px;
@@ -101,6 +95,14 @@
     width: 80px;
     height: 30px;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #0c4ca3;
+    border: black;
+    outline: black;
 }
 .copyright p{
     margin-top: 10px;
