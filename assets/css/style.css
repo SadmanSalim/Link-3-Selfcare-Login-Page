@@ -5,19 +5,35 @@
     padding: 0;
     font-family: inter;
 }
+.container{
+    background: #fff;
+    width: 100%;
+}
+.row{
+    width: 1300px;
+    margin: auto;
+}
 .box{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 1100px;
     height: 450px;
-    margin-top: 120px;
-    margin-left: 230px;
+    margin-left: 130px;
+    margin-top: 200px;
     border-radius: 20px;
     background-color: white;
+    display: flex;
+    position: relative;
 }
 .logo img{
     width: 90px;
     margin-left: 50px;
     margin-top: 50px;
+}
+.right-side img{
+    width: 413px;
+    position: absolute;
+    right: 0;
+    border-radius: 0 20px 20px 0;
 }
 
 .text{
@@ -68,7 +84,6 @@
 }
 .cs-id:hover,
 .cs-id-1:hover{
-    box-shadow: none;
     background-color: white;
 }
 
@@ -80,7 +95,9 @@
 #re{
     color: #30a9bb;
 }
-
+.last-line{
+    margin-top: 50px;
+}
 .frg{
     text-decoration: none;
     color: black;
@@ -96,15 +113,15 @@
     height: 30px;
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .btn:hover{
     background-color: white;
     color: #0c4ca3;
-    border: black;
-    outline: black;
+    border: 1px solid #0c4ca3;
 }
 .copyright p{
     margin-top: 10px;
-    margin-left: 580px;
+    margin-left: 450px;
 }
