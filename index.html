@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selfcare Login</title>
     <link rel="shortcut icon" href="./assets/img/unnamed.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c98501bdbf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
+
     <div class="container">
         <div class="row">
             <div class="box">
@@ -23,7 +25,8 @@
                     </div>
                     <div class="inputs">
                         <input class="cs-id" type="text" placeholder="Customer ID">
-                        <input class="cs-id-1" type="password" placeholder="Password">
+                        <input id="pwd" class="cs-id-1" type="password" placeholder="Password">
+                        <input type="checkbox" id="chk">
                         <input id="remember-pass" type="checkbox" name="Remember pass" id="">
                         <label id="re" for="remember-pass">Remember Me</label>
                     </div>
@@ -44,3 +47,12 @@
 </body>
 
 </html>
+
+<script>
+    const pwd = document.getElementById("pwd");
+    const chk = document.getElementById("chk");
+
+    chk.onchange = function(e) {
+        pwd.type = chk.checked ? "text" : "password";
+    };
+</script>

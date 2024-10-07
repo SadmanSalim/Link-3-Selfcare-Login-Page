@@ -76,6 +76,14 @@
     height: 35px;
     width: 260px;
     border: none;
+    position: relative;
+}
+#chk{
+    position: absolute;
+    left: 335px;
+    top: 268px;
+    cursor: pointer;
+    color: #000;
 }
 .cs-id,
 .cs-id-1{
